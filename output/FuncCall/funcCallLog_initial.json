@@ -1,0 +1,79 @@
+{
+    "adjListToCSVConversion": [
+        "adjListToCSVConverter", 
+        "removeDuplicatedCSVContents", 
+        "removeAFile"
+    ], 
+    "csvGenerator": [
+        "csvGenerator"
+    ], 
+    "emailManupulator": [
+        "getTheEmails", 
+        "emailsWeightImportance", 
+        "getEmailListStrVersion", 
+        "domainSplitting"
+    ], 
+    "emailVarificationTool": [
+        "emailValidityChecker"
+    ], 
+    "generateHTMLFromJSON": [
+        "getAllJSONFiles", 
+        "generateHTMLFromJSON"
+    ], 
+    "imageDownloader": [
+        "read_urls", 
+        "download_images", 
+        "numberOfImageFileRetrieved"
+    ], 
+    "ipFetchingAdjTableGenerator": [
+        "fetchIpFromLog", 
+        "generateIpAdjacencyTable"
+    ], 
+    "ipLocationTracker": [
+        "IPLocationFinderUsingIPAPImodule"
+    ], 
+    "logPuzzleSupportTools": [
+        "checkPathExists", 
+        "saveToDirectory", 
+        "saveToDirectory", 
+        "saveToDirectory", 
+        "saveToDirectory", 
+        "saveToDirectory", 
+        "saveToDirectory"
+    ], 
+    "logpuzzle_advanced": [
+        "imageDownloader", 
+        "logPuzzleSupportTools", 
+        "stepIncrement", 
+        "emailManupulator", 
+        "stepIncrement", 
+        "emailVarificationTool", 
+        "stepIncrement", 
+        "ipFetchingAdjTableGenerator", 
+        "stepIncrement", 
+        "stepIncrement", 
+        "networkGraph", 
+        "stepIncrement", 
+        "stepIncrement", 
+        "csvGenerator", 
+        "adjListToCSVConversion", 
+        "stepIncrement", 
+        "networkxSimulation", 
+        "stepIncrement", 
+        "networkxSimulation", 
+        "stepIncrement", 
+        "netDraw", 
+        "ipLocationTracker", 
+        "stepIncrement", 
+        "generateHTMLFromJSON"
+    ], 
+    "netDraw": [
+        "netDrawSetUpAndExecution"
+    ], 
+    "networkGraph": [
+        "networkGraphVisualization"
+    ], 
+    "networkxSimulation": [
+        "networkxSimulation"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "logPuzzleSupportTools": [
+        "createDirectory", 
+        "getTheNodesAndEdges"
+    ], 
+    "networkxSimulation": [
+        "logPuzzleSupportTools", 
+        "netxGraphBuilding", 
+        "netxGraphAddingAttributes", 
+        "networkx", 
+        "shortestPathCalculationAndSavingToFile", 
+        "dealingWithRootGraph", 
+        "getDegrees", 
+        "getDegreeCentralities", 
+        "getEigenVectorCentralities", 
+        "getBetweennessCentralities", 
+        "getHitBroker", 
+        "getCommunities", 
+        "formingModularities", 
+        "ipSortingCommunityWiseJSONCSVgeneration", 
+        "getPercommunityEigenInfluentials", 
+        "getPerCommunityHitBroker", 
+        "getPerCommunityImpHub", 
+        "createJSONFile", 
+        "createJSONFile", 
+        "exportGraphInfoIntoGephi", 
+        "exportGraphInfoIntoDotAndSaveAsImg"
+    ]
+}

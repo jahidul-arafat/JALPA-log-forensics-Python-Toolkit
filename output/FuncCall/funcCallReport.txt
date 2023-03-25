@@ -1,0 +1,104 @@
+General Information
+----------------------
+Graph Nodes/Edges/isDense 72/76/False
+Eigen Vector Centrality: Most Important Node/Least Important Node: Node(id='logPuzzleSupportTools'):1.0/Node(id='logpuzzle_advanced'):0.0
+Betweeness Centrality: Most Important Node/Least Important Node: Node(id='logpuzzle_advanced'):1.0/Node(id='checkPathExists'):0.0
+
+Adjacency Graph:
+{'removeDuplicatedCSVContents': {'adjListToCSVConversion': 1.0}, 'getEmailListStrVersion': {'emailManupulator': 1.0}, 'getEigenVectorCentralities': {'networkxSimulation': 1.0}, 'getPercommunityEigenInfluentials': {'networkxSimulation': 1.0}, 'domainSplitting': {'emailManupulator': 1.0}, 'ipSortingCommunityWiseJSONCSVgeneration': {'networkxSimulation': 1.0}, 'exportGraphInfoIntoGephi': {'networkxSimulation': 1.0}, 'checkPathExists': {'logPuzzleSupportTools': 1.0}, 'getHitBroker': {'networkxSimulation': 1.0}, 'logpuzzle_advanced': {'stepIncrement': 1.0, 'netDraw': 1.0, 'imageDownloader': 1.0, 'generateHTMLFromJSON': 1.0, 'adjListToCSVConversion': 1.0, 'networkGraph': 1.0, 'ipLocationTracker': 1.0, 'logPuzzleSupportTools': 1.0, 'ipFetchingAdjTableGenerator': 1.0, 'csvGenerator': 1.0, 'emailManupulator': 1.0, 'networkxSimulation': 1.0, 'emailVarificationTool': 1.0}, 'createJSONFile': {'networkxSimulation': 1.0}, 'fetchIpFromLog': {'ipFetchingAdjTableGenerator': 1.0}, 'numberOfImageFileRetrieved': {'imageDownloader': 1.0}, 'closenessCentrality': {'centrality': 1.0}, 'netxGraphBuilding': {'networkxSimulation': 1.0}, 'networkx': {'networkxSimulation': 1.0}, 'getCommunities': {'networkxSimulation': 1.0}, 'getDegrees': {'networkxSimulation': 1.0}, 'graphPreparation': {'preparingNXGraph_directed': 1.0, 'preparingNXGraph_undirected': 1.0, 'netDraw': 1.0, 'addingAttributesToNodes': 1.0}, 'emailManupulator': {'getEmailListStrVersion': 1.0, 'getTheEmails': 1.0, 'emailsWeightImportance': 1.0, 'logpuzzle_advanced': 1.0, 'domainSplitting': 1.0}, 'adjListToCSVConversion': {'adjListToCSVConverter': 1.0, 'removeAFile': 1.0, 'logpuzzle_advanced': 1.0, 'removeDuplicatedCSVContents': 1.0}, 'getCoordinates': {'logPuzzleSupportTools': 1.0}, 'emailsWeightImportance': {'emailManupulator': 1.0}, 'netDraw': {'centrality': 1.0, 'netDrawSetUpAndExecution': 1.0, 'graphPreparation': 1.0, 'logpuzzle_advanced': 1.0, 'logPuzzleSupportTools': 1.0}, 'eigenvectorCentrality': {'centrality': 1.0}, 'networkGraphVisualization': {'networkGraph': 1.0}, 'removeAFile': {'adjListToCSVConversion': 1.0}, 'exportGraphInfoIntoDotAndSaveAsImg': {'networkxSimulation': 1.0}, 'mergingJSONs': {'logPuzzleSupportTools': 1.0}, 'netxGraphAddingAttributes': {'networkxSimulation': 1.0}, 'centrality': {'katzCentrality': 1.0, 'netDraw': 1.0, 'eigenvectorCentrality': 1.0, 'closenessCentrality': 1.0, 'degreeCentrality': 1.0, 'hitsHubsAndAuthorities': 1.0, 'pagerankCentrality': 1.0, 'betweennessCentrality': 1.0}, 'addingAttributesToNodes': {'graphPreparation': 1.0}, 'saveToDirectory': {'logPuzzleSupportTools': 1.0}, 'logPuzzleSupportTools': {'netDraw': 1.0, 'loadJsonToCSV': 1.0, 'checkPathExists': 1.0, 'getTheNodesAndEdges': 1.0, 'logpuzzle_advanced': 1.0, 'mergingJSONs': 1.0, 'saveToDirectory': 1.0, 'operatingChoice': 1.0, 'writingIntoCSV': 1.0, 'createDirectory': 1.0, 'networkxSimulation': 1.0, 'getTheNodesFromCSV': 1.0, 'getCoordinates': 1.0}, 'getTheNodesFromCSV': {'logPuzzleSupportTools': 1.0}, 'hitsHubsAndAuthorities': {'centrality': 1.0}, 'read_urls': {'imageDownloader': 1.0}, 'preparingNXGraph_directed': {'graphPreparation': 1.0}, 'ipFetchingAdjTableGenerator': {'fetchIpFromLog': 1.0, 'generateIpAdjacencyTable': 1.0, 'logpuzzle_advanced': 1.0}, 'csvGenerator': {'csvGenerator': 1.0, 'logpuzzle_advanced': 1.0}, 'stepIncrement': {'logpuzzle_advanced': 1.0}, 'shortestPathCalculationAndSavingToFile': {'networkxSimulation': 1.0}, 'getBetweennessCentralities': {'networkxSimulation': 1.0}, 'loadJsonToCSV': {'logPuzzleSupportTools': 1.0}, 'IPLocationFinderUsingIPAPImodule': {'ipLocationTracker': 1.0}, 'getTheNodesAndEdges': {'logPuzzleSupportTools': 1.0}, 'download_images': {'imageDownloader': 1.0}, 'netDrawSetUpAndExecution': {'netDraw': 1.0}, 'operatingChoice': {'logPuzzleSupportTools': 1.0}, 'degreeCentrality': {'centrality': 1.0}, 'ipLocationTracker': {'IPLocationFinderUsingIPAPImodule': 1.0, 'logpuzzle_advanced': 1.0}, 'writingIntoCSV': {'logPuzzleSupportTools': 1.0}, 'adjListToCSVConverter': {'adjListToCSVConversion': 1.0}, 'networkxSimulation': {'getEigenVectorCentralities': 1.0, 'exportGraphInfoIntoGephi': 1.0, 'getHitBroker': 1.0, 'logpuzzle_advanced': 1.0, 'createJSONFile': 1.0, 'netxGraphAddingAttributes': 1.0, 'networkx': 1.0, 'ipSortingCommunityWiseJSONCSVgeneration': 1.0, 'networkxSimulation': 1.0, 'formingModularities': 1.0, 'getBetweennessCentralities': 1.0, 'exportGraphInfoIntoDotAndSaveAsImg': 1.0, 'getPercommunityEigenInfluentials': 1.0, 'logPuzzleSupportTools': 1.0, 'getCommunities': 1.0, 'getDegrees': 1.0, 'dealingWithRootGraph': 1.0, 'getDegreeCentralities': 1.0, 'getPerCommunityHitBroker': 1.0, 'shortestPathCalculationAndSavingToFile': 1.0, 'netxGraphBuilding': 1.0, 'getPerCommunityImpHub': 1.0}, 'emailVarificationTool': {'emailValidityChecker': 1.0, 'logpuzzle_advanced': 1.0}, 'katzCentrality': {'centrality': 1.0}, 'formingModularities': {'networkxSimulation': 1.0}, 'dealingWithRootGraph': {'networkxSimulation': 1.0}, 'getDegreeCentralities': {'networkxSimulation': 1.0}, 'getPerCommunityHitBroker': {'networkxSimulation': 1.0}, 'imageDownloader': {'read_urls': 1.0, 'numberOfImageFileRetrieved': 1.0, 'logpuzzle_advanced': 1.0, 'download_images': 1.0}, 'preparingNXGraph_undirected': {'graphPreparation': 1.0}, 'generateHTMLFromJSON': {'generateHTMLFromJSON': 1.0, 'logpuzzle_advanced': 1.0, 'getAllJSONFiles': 1.0}, 'networkGraph': {'logpuzzle_advanced': 1.0, 'networkGraphVisualization': 1.0}, 'pagerankCentrality': {'centrality': 1.0}, 'betweennessCentrality': {'centrality': 1.0}, 'createDirectory': {'logPuzzleSupportTools': 1.0}, 'emailValidityChecker': {'emailVarificationTool': 1.0}, 'generateIpAdjacencyTable': {'ipFetchingAdjTableGenerator': 1.0}, 'getTheEmails': {'emailManupulator': 1.0}, 'getPerCommunityImpHub': {'networkxSimulation': 1.0}, 'getAllJSONFiles': {'generateHTMLFromJSON': 1.0}}
+
+Weight/IP Pairs
+Node(id='logpuzzle_advanced'):0.0
+Node(id='netDraw'):0.168670535843
+Node(id='imageDownloader'):0.168670535843
+Node(id='stepIncrement'):0.168670535843
+Node(id='emailManupulator'):0.168670535843
+Node(id='emailVarificationTool'):0.168670535843
+Node(id='ipFetchingAdjTableGenerator'):0.168670535843
+Node(id='networkGraph'):0.168670535843
+Node(id='adjListToCSVConversion'):0.168670535843
+Node(id='ipLocationTracker'):0.168670535843
+Node(id='netDrawSetUpAndExecution'):0.260759088003
+Node(id='graphPreparation'):0.260759088003
+Node(id='centrality'):0.260759088003
+Node(id='read_urls'):0.260759088003
+Node(id='download_images'):0.260759088003
+Node(id='numberOfImageFileRetrieved'):0.260759088003
+Node(id='adjListToCSVConverter'):0.260759088003
+Node(id='removeDuplicatedCSVContents'):0.260759088003
+Node(id='removeAFile'):0.260759088003
+Node(id='networkGraphVisualization'):0.260759088003
+Node(id='IPLocationFinderUsingIPAPImodule'):0.260759088003
+Node(id='fetchIpFromLog'):0.260759088003
+Node(id='generateIpAdjacencyTable'):0.260759088003
+Node(id='getTheEmails'):0.260759088003
+Node(id='emailsWeightImportance'):0.260759088003
+Node(id='getEmailListStrVersion'):0.260759088003
+Node(id='domainSplitting'):0.260759088003
+Node(id='emailValidityChecker'):0.260759088003
+Node(id='degreeCentrality'):0.31222048562
+Node(id='betweennessCentrality'):0.31222048562
+Node(id='closenessCentrality'):0.31222048562
+Node(id='eigenvectorCentrality'):0.31222048562
+Node(id='katzCentrality'):0.31222048562
+Node(id='pagerankCentrality'):0.31222048562
+Node(id='hitsHubsAndAuthorities'):0.31222048562
+Node(id='preparingNXGraph_directed'):0.31222048562
+Node(id='preparingNXGraph_undirected'):0.31222048562
+Node(id='addingAttributesToNodes'):0.31222048562
+Node(id='getAllJSONFiles'):0.553077712657
+Node(id='netxGraphBuilding'):0.570570376154
+Node(id='netxGraphAddingAttributes'):0.570570376154
+Node(id='networkx'):0.570570376154
+Node(id='shortestPathCalculationAndSavingToFile'):0.570570376154
+Node(id='dealingWithRootGraph'):0.570570376154
+Node(id='getDegrees'):0.570570376154
+Node(id='getDegreeCentralities'):0.570570376154
+Node(id='getEigenVectorCentralities'):0.570570376154
+Node(id='getBetweennessCentralities'):0.570570376154
+Node(id='getHitBroker'):0.570570376154
+Node(id='getCommunities'):0.570570376154
+Node(id='formingModularities'):0.570570376154
+Node(id='ipSortingCommunityWiseJSONCSVgeneration'):0.570570376154
+Node(id='getPercommunityEigenInfluentials'):0.570570376154
+Node(id='getPerCommunityHitBroker'):0.570570376154
+Node(id='getPerCommunityImpHub'):0.570570376154
+Node(id='createJSONFile'):0.570570376154
+Node(id='exportGraphInfoIntoGephi'):0.570570376154
+Node(id='exportGraphInfoIntoDotAndSaveAsImg'):0.570570376154
+Node(id='checkPathExists'):0.714120325931
+Node(id='saveToDirectory'):0.714120325931
+Node(id='operatingChoice'):0.714120325931
+Node(id='getTheNodesAndEdges'):0.714120325931
+Node(id='getCoordinates'):0.714120325931
+Node(id='writingIntoCSV'):0.714120325931
+Node(id='getTheNodesFromCSV'):0.714120325931
+Node(id='mergingJSONs'):0.714120325931
+Node(id='loadJsonToCSV'):0.714120325931
+Node(id='createDirectory'):0.714120325931
+Node(id='generateHTMLFromJSON'):0.7217482485
+Node(id='csvGenerator'):0.731716204059
+Node(id='networkxSimulation'):0.739240911997
+Node(id='logPuzzleSupportTools'):1.0
+
+Removing Any Isolated Node: None
+Calculating the betweenness Centrality:
+[(Node(id='checkPathExists'), 0.0), (Node(id='getEmailListStrVersion'), 0.0), (Node(id='createDirectory'), 0.0), (Node(id='download_images'), 0.0), (Node(id='katzCentrality'), 0.0), (Node(id='mergingJSONs'), 0.0), (Node(id='createJSONFile'), 0.0), (Node(id='addingAttributesToNodes'), 0.0), (Node(id='domainSplitting'), 0.0), (Node(id='networkGraphVisualization'), 0.0), (Node(id='getPercommunityEigenInfluentials'), 0.0), (Node(id='removeAFile'), 0.0), (Node(id='getTheEmails'), 0.0), (Node(id='closenessCentrality'), 0.0), (Node(id='stepIncrement'), 0.0), (Node(id='ipSortingCommunityWiseJSONCSVgeneration'), 0.0), (Node(id='IPLocationFinderUsingIPAPImodule'), 0.0), (Node(id='getAllJSONFiles'), 0.0), (Node(id='getTheNodesAndEdges'), 0.0), (Node(id='hitsHubsAndAuthorities'), 0.0), (Node(id='fetchIpFromLog'), 0.0), (Node(id='getTheNodesFromCSV'), 0.0), (Node(id='operatingChoice'), 0.0), (Node(id='getCommunities'), 0.0), (Node(id='formingModularities'), 0.0), (Node(id='emailValidityChecker'), 0.0), (Node(id='shortestPathCalculationAndSavingToFile'), 0.0), (Node(id='loadJsonToCSV'), 0.0), (Node(id='exportGraphInfoIntoDotAndSaveAsImg'), 0.0), (Node(id='netDrawSetUpAndExecution'), 0.0), (Node(id='getDegreeCentralities'), 0.0), (Node(id='preparingNXGraph_directed'), 0.0), (Node(id='read_urls'), 0.0), (Node(id='emailsWeightImportance'), 0.0), (Node(id='removeDuplicatedCSVContents'), 0.0), (Node(id='getPerCommunityImpHub'), 0.0), (Node(id='saveToDirectory'), 0.0), (Node(id='getPerCommunityHitBroker'), 0.0), (Node(id='exportGraphInfoIntoGephi'), 0.0), (Node(id='getEigenVectorCentralities'), 0.0), (Node(id='pagerankCentrality'), 0.0), (Node(id='getCoordinates'), 0.0), (Node(id='getBetweennessCentralities'), 0.0), (Node(id='numberOfImageFileRetrieved'), 0.0), (Node(id='csvGenerator'), 0.0), (Node(id='networkx'), 0.0), (Node(id='dealingWithRootGraph'), 0.0), (Node(id='eigenvectorCentrality'), 0.0), (Node(id='adjListToCSVConverter'), 0.0), (Node(id='preparingNXGraph_undirected'), 0.0), (Node(id='generateIpAdjacencyTable'), 0.0), (Node(id='writingIntoCSV'), 0.0), (Node(id='netxGraphBuilding'), 0.0), (Node(id='betweennessCentrality'), 0.0), (Node(id='degreeCentrality'), 0.0), (Node(id='netxGraphAddingAttributes'), 0.0), (Node(id='getDegrees'), 0.0), (Node(id='getHitBroker'), 0.0), (Node(id='generateHTMLFromJSON'), 0.043586550435865505), (Node(id='emailVarificationTool'), 0.043586550435865505), (Node(id='networkGraph'), 0.043586550435865505), (Node(id='ipLocationTracker'), 0.043586550435865505), (Node(id='ipFetchingAdjTableGenerator'), 0.08655043586550436), (Node(id='graphPreparation'), 0.12889165628891655), (Node(id='imageDownloader'), 0.12889165628891655), (Node(id='adjListToCSVConversion'), 0.12889165628891655), (Node(id='emailManupulator'), 0.1706102117061021), (Node(id='centrality'), 0.2920298879202989), (Node(id='logPuzzleSupportTools'), 0.4950186799501868), (Node(id='netDraw'), 0.49688667496886674), (Node(id='networkxSimulation'), 0.7216687422166874), (Node(id='logpuzzle_advanced'), 1.0)]
+
+Calculating the eigen vector centrality:
+[(Node(id='logpuzzle_advanced'), 0.0), (Node(id='emailVarificationTool'), 0.16914318327941488), (Node(id='ipFetchingAdjTableGenerator'), 0.16914318327941488), (Node(id='stepIncrement'), 0.16914318327941488), (Node(id='netDraw'), 0.16914318327941488), (Node(id='networkGraph'), 0.16914318327941488), (Node(id='imageDownloader'), 0.16914318327941488), (Node(id='adjListToCSVConversion'), 0.16914318327941488), (Node(id='emailManupulator'), 0.16914318327941488), (Node(id='ipLocationTracker'), 0.16914318327941488), (Node(id='getEmailListStrVersion'), 0.2611263218110892), (Node(id='download_images'), 0.2611263218110892), (Node(id='domainSplitting'), 0.2611263218110892), (Node(id='networkGraphVisualization'), 0.2611263218110892), (Node(id='removeAFile'), 0.2611263218110892), (Node(id='getTheEmails'), 0.2611263218110892), (Node(id='IPLocationFinderUsingIPAPImodule'), 0.2611263218110892), (Node(id='centrality'), 0.2611263218110892), (Node(id='fetchIpFromLog'), 0.2611263218110892), (Node(id='graphPreparation'), 0.2611263218110892), (Node(id='emailValidityChecker'), 0.2611263218110892), (Node(id='netDrawSetUpAndExecution'), 0.2611263218110892), (Node(id='read_urls'), 0.2611263218110892), (Node(id='emailsWeightImportance'), 0.2611263218110892), (Node(id='removeDuplicatedCSVContents'), 0.2611263218110892), (Node(id='numberOfImageFileRetrieved'), 0.2611263218110892), (Node(id='adjListToCSVConverter'), 0.2611263218110892), (Node(id='generateIpAdjacencyTable'), 0.2611263218110892), (Node(id='katzCentrality'), 0.3113856957076824), (Node(id='addingAttributesToNodes'), 0.3113856957076824), (Node(id='closenessCentrality'), 0.3113856957076824), (Node(id='hitsHubsAndAuthorities'), 0.3113856957076824), (Node(id='preparingNXGraph_directed'), 0.3113856957076824), (Node(id='pagerankCentrality'), 0.3113856957076824), (Node(id='eigenvectorCentrality'), 0.3113856957076824), (Node(id='preparingNXGraph_undirected'), 0.3113856957076824), (Node(id='betweennessCentrality'), 0.3113856957076824), (Node(id='degreeCentrality'), 0.3113856957076824), (Node(id='createJSONFile'), 0.5697304949094959), (Node(id='getPercommunityEigenInfluentials'), 0.5697304949094959), (Node(id='ipSortingCommunityWiseJSONCSVgeneration'), 0.5697304949094959), (Node(id='getCommunities'), 0.5697304949094959), (Node(id='formingModularities'), 0.5697304949094959), (Node(id='shortestPathCalculationAndSavingToFile'), 0.5697304949094959), (Node(id='exportGraphInfoIntoDotAndSaveAsImg'), 0.5697304949094959), (Node(id='getDegreeCentralities'), 0.5697304949094959), (Node(id='getPerCommunityImpHub'), 0.5697304949094959), (Node(id='getPerCommunityHitBroker'), 0.5697304949094959), (Node(id='exportGraphInfoIntoGephi'), 0.5697304949094959), (Node(id='getEigenVectorCentralities'), 0.5697304949094959), (Node(id='getBetweennessCentralities'), 0.5697304949094959), (Node(id='networkx'), 0.5697304949094959), (Node(id='dealingWithRootGraph'), 0.5697304949094959), (Node(id='netxGraphBuilding'), 0.5697304949094959), (Node(id='netxGraphAddingAttributes'), 0.5697304949094959), (Node(id='getDegrees'), 0.5697304949094959), (Node(id='getHitBroker'), 0.5697304949094959), (Node(id='getAllJSONFiles'), 0.573325197486552), (Node(id='checkPathExists'), 0.7119730073377634), (Node(id='createDirectory'), 0.7119730073377634), (Node(id='mergingJSONs'), 0.7119730073377634), (Node(id='getTheNodesAndEdges'), 0.7119730073377634), (Node(id='getTheNodesFromCSV'), 0.7119730073377634), (Node(id='operatingChoice'), 0.7119730073377634), (Node(id='loadJsonToCSV'), 0.7119730073377634), (Node(id='saveToDirectory'), 0.7119730073377634), (Node(id='getCoordinates'), 0.7119730073377634), (Node(id='writingIntoCSV'), 0.7119730073377634), (Node(id='networkxSimulation'), 0.7388736781889107), (Node(id='csvGenerator'), 0.7391565812150044), (Node(id='generateHTMLFromJSON'), 0.742468380765967), (Node(id='logPuzzleSupportTools'), 1.0)]
+
+(************REPORT ENDS HERE**************)Name: 
+Type: DiGraph
+Number of nodes: 72
+Number of edges: 76
+Average in degree:   1.0556
+Average out degree:   1.0556
+Network Density: 0.0148669796557
+Name: 
+Type: Graph
+Number of nodes: 72
+Number of edges: 76
+Average degree:   2.1111
+Network Density: 0.0297339593114
+Total communities found:9

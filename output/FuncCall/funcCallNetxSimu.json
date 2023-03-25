@@ -1,0 +1,30 @@
+{
+    "centrality": [
+        "degreeCentrality", 
+        "betweennessCentrality", 
+        "closenessCentrality", 
+        "eigenvectorCentrality", 
+        "katzCentrality", 
+        "pagerankCentrality", 
+        "hitsHubsAndAuthorities"
+    ], 
+    "graphPreparation": [
+        "preparingNXGraph_directed", 
+        "preparingNXGraph_undirected", 
+        "addingAttributesToNodes"
+    ], 
+    "logPuzzleSupportTools": [
+        "operatingChoice", 
+        "getTheNodesAndEdges", 
+        "getCoordinates", 
+        "writingIntoCSV", 
+        "getTheNodesFromCSV", 
+        "mergingJSONs", 
+        "loadJsonToCSV"
+    ], 
+    "netDraw": [
+        "logPuzzleSupportTools", 
+        "graphPreparation", 
+        "centrality"
+    ]
+}

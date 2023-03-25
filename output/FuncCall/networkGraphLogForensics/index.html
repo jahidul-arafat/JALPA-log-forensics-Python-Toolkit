@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+	<title>Graph</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="canvas.js"></script>
+	<script type="text/javascript" src="graph.js"></script>
+</head>
+<body>
+	<div id="graph" style="width:700px; height:500px;">
+		<script type="text/canvas">
+			function setup(canvas) {
+				canvas.size(700, 500);
+				canvas.fps = 30;
+				g = new Graph(canvas.element, 18);
+				var n = {
+					"netDraw": {fill:"rgba(0,127,255,0.13)"},
+					"netDrawSetUpAndExecution": {fill:"rgba(0,127,255,0.20)"},
+					"logPuzzleSupportTools": {fill:"rgba(0,127,255,0.75)"},
+					"graphPreparation": {fill:"rgba(0,127,255,0.20)"},
+					"centrality": {fill:"rgba(0,127,255,0.20)"},
+					"logpuzzle_advanced": {fill:"rgba(0,127,255,0.00)"},
+					"imageDownloader": {fill:"rgba(0,127,255,0.13)"},
+					"stepIncrement": {fill:"rgba(0,127,255,0.13)"},
+					"emailManupulator": {fill:"rgba(0,127,255,0.13)"},
+					"emailVarificationTool": {fill:"rgba(0,127,255,0.13)"},
+					"ipFetchingAdjTableGenerator": {fill:"rgba(0,127,255,0.13)"},
+					"networkGraph": {fill:"rgba(0,127,255,0.13)"},
+					"csvGenerator": {fill:"rgba(0,127,255,0.55)"},
+					"adjListToCSVConversion": {fill:"rgba(0,127,255,0.13)"},
+					"networkxSimulation": {fill:"rgba(0,127,255,0.55)"},
+					"ipLocationTracker": {fill:"rgba(0,127,255,0.13)"},
+					"generateHTMLFromJSON": {fill:"rgba(0,127,255,0.56)"},
+					"degreeCentrality": {fill:"rgba(0,127,255,0.23)"},
+					"betweennessCentrality": {fill:"rgba(0,127,255,0.23)"},
+					"closenessCentrality": {fill:"rgba(0,127,255,0.23)"},
+					"eigenvectorCentrality": {fill:"rgba(0,127,255,0.23)"},
+					"katzCentrality": {fill:"rgba(0,127,255,0.23)"},
+					"pagerankCentrality": {fill:"rgba(0,127,255,0.23)"},
+					"hitsHubsAndAuthorities": {fill:"rgba(0,127,255,0.23)"},
+					"preparingNXGraph_directed": {fill:"rgba(0,127,255,0.23)"},
+					"preparingNXGraph_undirected": {fill:"rgba(0,127,255,0.23)"},
+					"addingAttributesToNodes": {fill:"rgba(0,127,255,0.23)"},
+					"read_urls": {fill:"rgba(0,127,255,0.20)"},
+					"download_images": {fill:"rgba(0,127,255,0.20)"},
+					"numberOfImageFileRetrieved": {fill:"rgba(0,127,255,0.20)"},
+					"getAllJSONFiles": {fill:"rgba(0,127,255,0.43)"},
+					"adjListToCSVConverter": {fill:"rgba(0,127,255,0.20)"},
+					"removeDuplicatedCSVContents": {fill:"rgba(0,127,255,0.20)"},
+					"removeAFile": {fill:"rgba(0,127,255,0.20)"},
+					"networkGraphVisualization": {fill:"rgba(0,127,255,0.20)"},
+					"IPLocationFinderUsingIPAPImodule": {fill:"rgba(0,127,255,0.20)"},
+					"checkPathExists": {fill:"rgba(0,127,255,0.53)"},
+					"saveToDirectory": {fill:"rgba(0,127,255,0.53)"},
+					"operatingChoice": {fill:"rgba(0,127,255,0.53)"},
+					"getTheNodesAndEdges": {fill:"rgba(0,127,255,0.53)"},
+					"getCoordinates": {fill:"rgba(0,127,255,0.53)"},
+					"writingIntoCSV": {fill:"rgba(0,127,255,0.53)"},
+					"getTheNodesFromCSV": {fill:"rgba(0,127,255,0.53)"},
+					"mergingJSONs": {fill:"rgba(0,127,255,0.53)"},
+					"loadJsonToCSV": {fill:"rgba(0,127,255,0.53)"},
+					"createDirectory": {fill:"rgba(0,127,255,0.53)"},
+					"fetchIpFromLog": {fill:"rgba(0,127,255,0.20)"},
+					"generateIpAdjacencyTable": {fill:"rgba(0,127,255,0.20)"},
+					"getTheEmails": {fill:"rgba(0,127,255,0.20)"},
+					"emailsWeightImportance": {fill:"rgba(0,127,255,0.20)"},
+					"getEmailListStrVersion": {fill:"rgba(0,127,255,0.20)"},
+					"domainSplitting": {fill:"rgba(0,127,255,0.20)"},
+					"netxGraphBuilding": {fill:"rgba(0,127,255,0.43)"},
+					"netxGraphAddingAttributes": {fill:"rgba(0,127,255,0.43)"},
+					"networkx": {fill:"rgba(0,127,255,0.43)"},
+					"shortestPathCalculationAndSavingToFile": {fill:"rgba(0,127,255,0.43)"},
+					"dealingWithRootGraph": {fill:"rgba(0,127,255,0.43)"},
+					"getDegrees": {fill:"rgba(0,127,255,0.43)"},
+					"getDegreeCentralities": {fill:"rgba(0,127,255,0.43)"},
+					"getEigenVectorCentralities": {fill:"rgba(0,127,255,0.43)"},
+					"getBetweennessCentralities": {fill:"rgba(0,127,255,0.43)"},
+					"getHitBroker": {fill:"rgba(0,127,255,0.43)"},
+					"getCommunities": {fill:"rgba(0,127,255,0.43)"},
+					"formingModularities": {fill:"rgba(0,127,255,0.43)"},
+					"ipSortingCommunityWiseJSONCSVgeneration": {fill:"rgba(0,127,255,0.43)"},
+					"getPercommunityEigenInfluentials": {fill:"rgba(0,127,255,0.43)"},
+					"getPerCommunityHitBroker": {fill:"rgba(0,127,255,0.43)"},
+					"getPerCommunityImpHub": {fill:"rgba(0,127,255,0.43)"},
+					"createJSONFile": {fill:"rgba(0,127,255,0.43)"},
+					"exportGraphInfoIntoGephi": {fill:"rgba(0,127,255,0.43)"},
+					"exportGraphInfoIntoDotAndSaveAsImg": {fill:"rgba(0,127,255,0.43)"},
+					"emailValidityChecker": {fill:"rgba(0,127,255,0.20)"}
+				};
+				var e = [
+					["netDraw", "netDrawSetUpAndExecution", {stroke:"rgba(0,0,0,0.75)"}],
+					["netDraw", "logPuzzleSupportTools", {stroke:"rgba(0,0,0,0.75)"}],
+					["netDraw", "graphPreparation", {stroke:"rgba(0,0,0,0.75)"}],
+					["netDraw", "centrality", {stroke:"rgba(0,0,0,0.75)"}],
+					["logpuzzle_advanced", "imageDownloader", {stroke:"rgba(0,0,0,0.75)"}],
+					["logpuzzle_advanced", "logPuzzleSupportTools", {stroke:"rgba(0,0,0,0.75)"}],
+					["logpuzzle_advanced", "stepIncrement", {stroke:"rgba(0,0,0,0.75)"}],
+					["logpuzzle_advanced", "emailManupulator", {stroke:"rgba(0,0,0,0.75)"}],
+					["logpuzzle_advanced", "emailVarificationTool", {stroke:"rgba(0,0,0,0.75)"}],
+					["logpuzzle_advanced", "ipFetchingAdjTableGenerator", {stroke:"rgba(0,0,0,0.75)"}],
+					["logpuzzle_advanced", "networkGraph", {stroke:"rgba(0,0,0,0.75)"}],
+					["logpuzzle_advanced", "csvGenerator", {stroke:"rgba(0,0,0,0.75)"}],
+					["logpuzzle_advanced", "adjListToCSVConversion", {stroke:"rgba(0,0,0,0.75)"}],
+					["logpuzzle_advanced", "networkxSimulation", {stroke:"rgba(0,0,0,0.75)"}],
+					["logpuzzle_advanced", "netDraw", {stroke:"rgba(0,0,0,0.75)"}],
+					["logpuzzle_advanced", "ipLocationTracker", {stroke:"rgba(0,0,0,0.75)"}],
+					["logpuzzle_advanced", "generateHTMLFromJSON", {stroke:"rgba(0,0,0,0.75)"}],
+					["centrality", "degreeCentrality", {stroke:"rgba(0,0,0,0.75)"}],
+					["centrality", "betweennessCentrality", {stroke:"rgba(0,0,0,0.75)"}],
+					["centrality", "closenessCentrality", {stroke:"rgba(0,0,0,0.75)"}],
+					["centrality", "eigenvectorCentrality", {stroke:"rgba(0,0,0,0.75)"}],
+					["centrality", "katzCentrality", {stroke:"rgba(0,0,0,0.75)"}],
+					["centrality", "pagerankCentrality", {stroke:"rgba(0,0,0,0.75)"}],
+					["centrality", "hitsHubsAndAuthorities", {stroke:"rgba(0,0,0,0.75)"}],
+					["graphPreparation", "preparingNXGraph_directed", {stroke:"rgba(0,0,0,0.75)"}],
+					["graphPreparation", "preparingNXGraph_undirected", {stroke:"rgba(0,0,0,0.75)"}],
+					["graphPreparation", "addingAttributesToNodes", {stroke:"rgba(0,0,0,0.75)"}],
+					["imageDownloader", "read_urls", {stroke:"rgba(0,0,0,0.75)"}],
+					["imageDownloader", "download_images", {stroke:"rgba(0,0,0,0.75)"}],
+					["imageDownloader", "numberOfImageFileRetrieved", {stroke:"rgba(0,0,0,0.75)"}],
+					["generateHTMLFromJSON", "getAllJSONFiles", {stroke:"rgba(0,0,0,0.75)"}],
+					["generateHTMLFromJSON", "generateHTMLFromJSON", {stroke:"rgba(0,0,0,0.75)"}],
+					["adjListToCSVConversion", "adjListToCSVConverter", {stroke:"rgba(0,0,0,0.75)"}],
+					["adjListToCSVConversion", "removeDuplicatedCSVContents", {stroke:"rgba(0,0,0,0.75)"}],
+					["adjListToCSVConversion", "removeAFile", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkGraph", "networkGraphVisualization", {stroke:"rgba(0,0,0,0.75)"}],
+					["ipLocationTracker", "IPLocationFinderUsingIPAPImodule", {stroke:"rgba(0,0,0,0.75)"}],
+					["logPuzzleSupportTools", "checkPathExists", {stroke:"rgba(0,0,0,0.75)"}],
+					["logPuzzleSupportTools", "saveToDirectory", {stroke:"rgba(0,0,0,0.75)"}],
+					["logPuzzleSupportTools", "operatingChoice", {stroke:"rgba(0,0,0,0.75)"}],
+					["logPuzzleSupportTools", "getTheNodesAndEdges", {stroke:"rgba(0,0,0,0.75)"}],
+					["logPuzzleSupportTools", "getCoordinates", {stroke:"rgba(0,0,0,0.75)"}],
+					["logPuzzleSupportTools", "writingIntoCSV", {stroke:"rgba(0,0,0,0.75)"}],
+					["logPuzzleSupportTools", "getTheNodesFromCSV", {stroke:"rgba(0,0,0,0.75)"}],
+					["logPuzzleSupportTools", "mergingJSONs", {stroke:"rgba(0,0,0,0.75)"}],
+					["logPuzzleSupportTools", "loadJsonToCSV", {stroke:"rgba(0,0,0,0.75)"}],
+					["logPuzzleSupportTools", "createDirectory", {stroke:"rgba(0,0,0,0.75)"}],
+					["ipFetchingAdjTableGenerator", "fetchIpFromLog", {stroke:"rgba(0,0,0,0.75)"}],
+					["ipFetchingAdjTableGenerator", "generateIpAdjacencyTable", {stroke:"rgba(0,0,0,0.75)"}],
+					["csvGenerator", "csvGenerator", {stroke:"rgba(0,0,0,0.75)"}],
+					["emailManupulator", "getTheEmails", {stroke:"rgba(0,0,0,0.75)"}],
+					["emailManupulator", "emailsWeightImportance", {stroke:"rgba(0,0,0,0.75)"}],
+					["emailManupulator", "getEmailListStrVersion", {stroke:"rgba(0,0,0,0.75)"}],
+					["emailManupulator", "domainSplitting", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "networkxSimulation", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "logPuzzleSupportTools", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "netxGraphBuilding", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "netxGraphAddingAttributes", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "networkx", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "shortestPathCalculationAndSavingToFile", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "dealingWithRootGraph", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "getDegrees", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "getDegreeCentralities", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "getEigenVectorCentralities", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "getBetweennessCentralities", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "getHitBroker", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "getCommunities", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "formingModularities", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "ipSortingCommunityWiseJSONCSVgeneration", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "getPercommunityEigenInfluentials", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "getPerCommunityHitBroker", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "getPerCommunityImpHub", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "createJSONFile", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "exportGraphInfoIntoGephi", {stroke:"rgba(0,0,0,0.75)"}],
+					["networkxSimulation", "exportGraphInfoIntoDotAndSaveAsImg", {stroke:"rgba(0,0,0,0.75)"}],
+					["emailVarificationTool", "emailValidityChecker", {stroke:"rgba(0,0,0,0.75)"}]
+				];
+				for (var id in n) {
+					g.addNode(id, n[id]);
+				}
+				for (var i=0; i < e.length; i++) {
+					var n1 = g.nodeset[e[i][0]];
+					var n2 = g.nodeset[e[i][1]];
+					g.addEdge(n1, n2, e[i][2]);
+				}
+				g.layout.k = 4.0; // Force constant (= edge length).
+				g.layout.force = 0.01; // Repulsive strength.
+				g.layout.repulsion = 50; // Repulsive radius.
+				g.eigenvectorCentrality();
+				g.betweennessCentrality();
+				g.degreeCentrality();
+				// Apply Node.weight to Node.radius.
+				for (var i=0; i < g.nodes.length; i++) {
+					var n = g.nodes[i];
+					n.radius = n.radius + n.radius * n.weight;
+				}
+				// Apply Edge.length (leaves get shorter edges).
+				for (var i=0; i < g.nodes.length; i++) {
+					var e = g.nodes[i].edges();
+					if (e.length == 1) {
+						e[0].length *= 0.2;
+					}
+				}
+			}
+			function draw(canvas) {
+				if (g.layout.iterations <= 500) {
+					canvas.clear();
+					//shadow();
+					stroke(0);
+					fill(0,0);
+					g.update(2);
+					g.draw(0.6, true);
+				}
+				g.drag(canvas.mouse);
+			}
+		</script>
+	</div>
+</body>
+</html>
